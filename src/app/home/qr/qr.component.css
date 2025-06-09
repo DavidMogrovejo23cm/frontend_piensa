@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header {
+background: linear-gradient(#2d3a4a, #6fa5c1);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* O la cantidad de espacio que necesites */
+}
+
+.user-icon {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.generate-btn {
+background: linear-gradient(#2d3a4a, #6fa5c1);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+background: linear-gradient(#2d3a4a, #6fa5c1);
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.footer-icon {
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+}
+.menu-icon{
+    background: linear-gradient(#2d3a4a, #6fa5c1);
+}
